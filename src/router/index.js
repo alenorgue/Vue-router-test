@@ -5,7 +5,7 @@ import ContactView from '../views/Contact.vue'
 import PokemonDetails from '../views/PokemonDetails.vue'
 
 const routes = [
-  { path: '/pokemons', component: HomeView },
+  { path: '/', component: HomeView },
   { path: '/contact', component: ContactView },
   { path: '/pokemons/:id', component: PokemonDetails }
 ]
