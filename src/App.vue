@@ -5,6 +5,8 @@
 <template>
   <nav>
     <router-link to="/pokemons">Home</router-link> |
+    <router-link to="/pokemons/1
+  ">Details View</router-link> 
     <router-link to="/contact">Contact</router-link>
   </nav>
   <router-view />
