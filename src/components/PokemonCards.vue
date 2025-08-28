@@ -20,7 +20,7 @@ export default {
             pokemons: [],
         };
     },
-    async created() {
+    async mounted() {
         // Ejemplo de caché simple usando localStorage
         const cacheKey = 'pokemonsCache';
         const cached = localStorage.getItem(cacheKey);
