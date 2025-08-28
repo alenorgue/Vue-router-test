@@ -73,8 +73,5 @@ export default {
     padding: 16px;
     text-align: center;
 }
-body{
-    display: flex;
-    align-items: center;
-}
+
 </style>

@@ -20,12 +20,14 @@ export default {
 <style scoped>
 h1 {
   color: #42b983;
-  padding: 20px;
-  margin-bottom: 30px;
+  padding: 10px;
+ 
 }
-div{display: flex;
-
+div{ display: flex;
+    align-items: center;
+    flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
+
 </style>
